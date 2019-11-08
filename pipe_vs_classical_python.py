@@ -13,8 +13,8 @@ def func_duration_decorator(func):
     return wrapper
 
 '''
-Задание
-x - это число кратное 27 в пределе от 0 до 20000000. Складывать все x*x%32, пока значение x*x%32 не превысит 7000000.
+Task:
+x is a multiple of 27 in the range 0 to 20,000,000. Sum all x * x% 32 until x * x% 32 exceeds 7,000,000.
 '''
 
 @func_duration_decorator
